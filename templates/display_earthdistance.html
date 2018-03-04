@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <h3>The following list of records fall in the desired region (computed using earthdistance):</h3>
+
+    {% for user in records %}
+        <li> {{user}} </li>
+    {% endfor %}
+
+    {{ one }}
+
+</body>
+</html>

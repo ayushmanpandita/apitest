@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <h3>The following list of records fall in the desired region:</h3>
+
+    {% for user in records %}
+        <li> {{user.key}} {{ user.place }} {{user.admin_name1}} {{user.latitude}} {{user.longitude}} </li>
+    {% endfor %}
+
+    {{ one }}
+
+</body>
+</html>
