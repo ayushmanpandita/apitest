@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RedCarpet</title>
+</head>
+<body>
+
+    <form action="/post_location">
+        <input type="submit" value="POST!" />
+    </form>
+    <br>
+    <form action="/get_using_postgres">
+        <input type="submit" value="GET using Earth_Distance!" />
+    </form>
+    <br>
+    <form action="/get_using_self">
+        <input type="submit" value="GET using Mathematical Computation!" />
+    </form>
+
+
+</body>
+</html>
